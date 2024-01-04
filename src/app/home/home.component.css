@@ -1,0 +1,37 @@
+.home-container
+{
+  display: flex;
+}
+  .all-movies{
+    width: 75%;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid #fdc827;
+    padding: 20px 4Opx;
+    font-family: "Roboto", sans-serif;
+  }
+  .popular-movies{
+    width: 25%;
+    min-height: calc(100vh - 80px);
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10px 20px;
+
+  }
+
+  h4 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #ff9900;
+    padding: 10px;
+  }
+
+  .view-all {
+    color: #ff9900;
+    cursor: pointer;
+  }

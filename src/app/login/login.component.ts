@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -7,12 +9,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  username: string ="";
+  password: string ="";
+  errorMsg: string ="";
+
+  constructor(private auth: AuthService, private router: Router){}
+
+/***
+ * Cette méthode est appelée une fois,
+ * après que le composant a été initialisé.
+ ***/
   ngOnInit(): void {
-    // Ajustez ceci si nécessaire
     this.loginMethod();
   }
 
-
+  login(){
+    if(this.username.trim().length === 0){
+      this.errorMsg = "Username is required";
+    }else if(this.password.trim().length === 0){
+      this.errorMsg = "Password is required";
+    }else {
+      this.errorMsg ="";
+      let res = this.auth.login(this.username, this.password)
+        if(res === 200){
+          this.router.navigate(['home'])
+        }
+        if (res === 403){
+          this.errorMsg ="Invalid Credential";
+        }
+    }
+  }
   loginMethod() {
     let login = document.getElementById('login');
     let loginImage = document.getElementById('loginImage');

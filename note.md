@@ -6,3 +6,5 @@
 ];
 
 puis dans app.component.ts utiliser <router-outlet></router-outlet>
+
+# ngModel 
