@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Inception",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.8,
+    "review": ["Excellent film!", "Amazing visuals."]
+  },
+  {
+    "id": 2,
+    "name": "The Dark Knight",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.9,
+    "review": ["Masterpiece!", "Heath Ledger's Joker is iconic."]
+  },
+  {
+    "id": 3,
+    "name": "Interstellar",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.7,
+    "review": ["Mind-bending!", "Hans Zimmer's score is phenomenal."]
+  },
+  {
+    "id": 4,
+    "name": "Django Unchained",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.6,
+    "review": ["Quentin Tarantino at his best!", "Great performances."]
+  },
+  {
+    "id": 5,
+    "name": "The Shawshank Redemption",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.9,
+    "review": ["Timeless classic!", "Redemption theme is powerful."]
+  },
+  {
+    "id": 6,
+    "name": "Pulp Fiction",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.8,
+    "review": ["Tarantino's non-linear storytelling shines.", "Memorable dialogues."]
+  },
+  {
+    "id": 7,
+    "name": "The Matrix",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.7,
+    "review": ["Revolutionary sci-fi!", "Bullet-dodging scene is iconic."]
+  },
+  {
+    "id": 8,
+    "name": "Fight Club",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.6,
+    "review": ["Twisted and thought-provoking.", "Unexpected plot twists."]
+  },
+  {
+    "id": 9,
+    "name": "Forrest Gump",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.8,
+    "review": ["Heartwarming tale!", "Tom Hanks' performance is outstanding."]
+  },
+  {
+    "id": 10,
+    "name": "The Godfather",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.9,
+    "review": ["Epic mafia drama.", "Marlon Brando's portrayal is legendary."]
+  }
+]

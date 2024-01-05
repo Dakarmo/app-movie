@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Dune",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.5,
+    "review": ["Great adaptation!", "Stunning cinematography."]
+  },
+  {
+    "id": 2,
+    "name": "Eternals",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.2,
+    "review": ["Unique storyline.", "Impressive visuals."]
+  },
+  {
+    "id": 3,
+    "name": "No Time to Die",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.4,
+    "review": ["Classic Bond!", "Daniel Craig's farewell."]
+  },
+  {
+    "id": 4,
+    "name": "Venom: Let There Be Carnage",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.1,
+    "review": ["Thrilling symbiote action.", "Tom Hardy's dual role is captivating."]
+  },
+  {
+    "id": 5,
+    "name": "Black Widow",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.3,
+    "review": ["Action-packed!", "Scarlett Johansson's stellar performance."]
+  },
+  {
+    "id": 6,
+    "name": "Shang-Chi and the Legend of the Ten Rings",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.7,
+    "review": ["Exciting action!", "Great characters."]
+  },
+  {
+    "id": 7,
+    "name": "A Quiet Place Part II",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.6,
+    "review": ["Intense suspense.", "Well-crafted sequel."]
+  },
+  {
+    "id": 8,
+    "name": "Jungle Cruise",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.0,
+    "review": ["Fun adventure!", "Dwayne Johnson and Emily Blunt shine."]
+  },
+  {
+    "id": 9,
+    "name": "Cruella",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.2,
+    "review": ["Stylish and wicked.", "Emma Stone's performance is outstanding."]
+  },
+  {
+    "id": 10,
+    "name": "The Suicide Squad",
+    "cover": "https://unsplash.it/800/600",
+    "rate": 4.4,
+    "review": ["Crazy fun!", "James Gunn's direction adds a fresh twist."]
+  }
+]

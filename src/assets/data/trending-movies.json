@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Spider-Man",
+    "cover": "https://unsplash.it/180/230",
+    "rate": 4.9,
+    "review": ["Mind-blowing!", "Best Spider-Man movie."]
+  },
+  {
+    "id": 2,
+    "name": "Shang-Chi ",
+    "cover": "https://unsplash.it/180/230?image=1033",
+    "rate": 4.7,
+    "review": ["Exciting action!", "Great characters."]
+  },
+  {
+    "id": 3,
+    "name": "Untitled Movie 1",
+    "cover": "https://unsplash.it/180/230",
+    "rate": 4.5,
+    "review": ["Awesome!", "Must-watch."]
+  },
+  {
+    "id": 4,
+    "name": "Untitled Movie 2",
+    "cover": "https://unsplash.it/180/230?image=1022",
+    "rate": 4.2,
+    "review": ["Intriguing plot.", "Unexpected twists."]
+  },
+  {
+    "id": 5,
+    "name": "Untitled Movie 3",
+    "cover": "https://unsplash.it/180/230?image=1033",
+    "rate": 4.8,
+    "review": ["Compelling story.", "Emotional journey."]
+  },
+  {
+    "id": 6,
+    "name": "Untitled Movie 4",
+    "cover": "https://unsplash.it/180/230?image=1044",
+    "rate": 4.6,
+    "review": ["Captivating!", "Well-executed."]
+  }
+
+]
+
