@@ -2,44 +2,86 @@
   {
     "id": 1,
     "name": "Spider-Man",
-    "cover": "https://unsplash.it/180/230",
+    "cover": "https://unsplash.it/180/230?random=1",
     "rate": 4.9,
-    "review": ["Mind-blowing!", "Best Spider-Man movie."]
+    "reviews": [
+      {
+        "author": "Sophie Taylor",
+        "published_on": "2022-02-01",
+        "review": "Not my type of movie. Too much drama.",
+        "rate": 2
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Shang-Chi ",
-    "cover": "https://unsplash.it/180/230?image=1033",
+    "cover": "https://picsum.photos/180/230?random=1033",
     "rate": 4.7,
-    "review": ["Exciting action!", "Great characters."]
+    "reviews": [
+      {
+        "author": "Daniel Lee",
+        "published_on": "2022-02-05",
+        "review": "Well-executed. Kept me engaged throughout.",
+        "rate": 4
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Untitled Movie 1",
-    "cover": "https://unsplash.it/180/230",
+    "cover": "https://unsplash.it/180/230?random=2",
     "rate": 4.5,
-    "review": ["Awesome!", "Must-watch."]
+    "reviews": [
+      {
+        "author": "Olivia White",
+        "published_on": "2022-02-10",
+        "review": "Breathtaking visuals. A visual treat!",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Untitled Movie 2",
-    "cover": "https://unsplash.it/180/230?image=1022",
+    "cover": "https://unsplash.it/180/230?random=1022",
     "rate": 4.2,
-    "review": ["Intriguing plot.", "Unexpected twists."]
+    "reviews": [
+      {
+        "author": "Michael Clark",
+        "published_on": "2022-02-15",
+        "review": "Could have been better. Expected more from the director.",
+        "rate": 3
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Untitled Movie 3",
-    "cover": "https://unsplash.it/180/230?image=1033",
+    "cover": "https://unsplash.it/180/230?random=103",
     "rate": 4.8,
-    "review": ["Compelling story.", "Emotional journey."]
+    "reviews": [
+      {
+        "author": "Hannah Martinez",
+        "published_on": "2022-02-20",
+        "review": "A rollercoaster of emotions. Highly recommended.",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Untitled Movie 4",
-    "cover": "https://unsplash.it/180/230?image=1044",
+    "cover": "https://unsplash.it/180/230?random=1044",
     "rate": 4.6,
-    "review": ["Captivating!", "Well-executed."]
+    "reviews": [
+      {
+        "author": "David Anderson",
+        "published_on": "2022-02-25",
+        "review": "Decent storyline, but some scenes felt unnecessary.",
+        "rate": 3
+      }
+    ]
   }
 
 ]

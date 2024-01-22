@@ -2,71 +2,86 @@
   {
     "id": 1,
     "name": "Dune",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=51",
     "rate": 4.5,
-    "review": ["Great adaptation!", "Stunning cinematography."]
+    "reviews": [
+      {
+        "author": "Jack Miller",
+        "published_on": "2022-03-25",
+        "review": "The soundtrack elevated the entire experience.",
+        "rate": 4
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Eternals",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=52",
     "rate": 4.2,
-    "review": ["Unique storyline.", "Impressive visuals."]
+    "reviews": [
+      {
+        "author": "Ava Adams",
+        "published_on": "2022-03-20",
+        "review": "Captivating from start to finish. A must-watch!",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 3,
     "name": "No Time to Die",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=53",
     "rate": 4.4,
-    "review": ["Classic Bond!", "Daniel Craig's farewell."]
+    "reviews": [
+      {
+        "author": "William Harris",
+        "published_on": "2022-03-15",
+        "review": "Average movie. Didn't leave a lasting impression.",
+        "rate": 3
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Venom: Let There Be Carnage",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=54",
     "rate": 4.1,
-    "review": ["Thrilling symbiote action.", "Tom Hardy's dual role is captivating."]
+    "reviews": [
+      {
+        "author": "Isabella Garcia",
+        "published_on": "2022-03-10",
+        "review": "Incredible storytelling. A modern classic!",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Black Widow",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=55",
     "rate": 4.3,
-    "review": ["Action-packed!", "Scarlett Johansson's stellar performance."]
+    "reviews": [
+      {
+        "author": "Ryan Turner",
+        "published_on": "2022-03-05",
+        "review": "Not my cup of tea. The ending was confusing.",
+        "rate": 2
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Shang-Chi and the Legend of the Ten Rings",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=56",
     "rate": 4.7,
-    "review": ["Exciting action!", "Great characters."]
-  },
-  {
-    "id": 7,
-    "name": "A Quiet Place Part II",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.6,
-    "review": ["Intense suspense.", "Well-crafted sequel."]
-  },
-  {
-    "id": 8,
-    "name": "Jungle Cruise",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.0,
-    "review": ["Fun adventure!", "Dwayne Johnson and Emily Blunt shine."]
-  },
-  {
-    "id": 9,
-    "name": "Cruella",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.2,
-    "review": ["Stylish and wicked.", "Emma Stone's performance is outstanding."]
-  },
-  {
-    "id": 10,
-    "name": "The Suicide Squad",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.4,
-    "review": ["Crazy fun!", "James Gunn's direction adds a fresh twist."]
+    "reviews": [
+      {
+        "author": "Emma Baker",
+        "published_on": "2022-03-01",
+        "review": "A thought-provoking film. Left me contemplating for days.",
+        "rate": 4
+      }
+    ]
   }
+
 ]

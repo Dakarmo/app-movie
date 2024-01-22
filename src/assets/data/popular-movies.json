@@ -2,71 +2,85 @@
   {
     "id": 1,
     "name": "Inception",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=509",
     "rate": 4.8,
-    "review": ["Excellent film!", "Amazing visuals."]
+    "reviews": [
+      {
+        "author": "John Doe",
+        "published_on": "2022-01-01",
+        "review": "Great movie! I loved the plot.",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 2,
     "name": "The Dark Knight",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=508",
     "rate": 4.9,
-    "review": ["Masterpiece!", "Heath Ledger's Joker is iconic."]
+    "reviews": [
+      {
+        "author": "Jane Smith",
+        "published_on": "2022-01-05",
+        "review": "Interesting storyline, but the ending was a bit abrupt.",
+        "rate": 4
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Interstellar",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=507",
     "rate": 4.7,
-    "review": ["Mind-bending!", "Hans Zimmer's score is phenomenal."]
+    "reviews": [
+      {
+        "author": "Alice Johnson",
+        "published_on": "2022-01-10",
+        "review": "The cinematography is stunning. A must-watch!",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Django Unchained",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=506",
     "rate": 4.6,
-    "review": ["Quentin Tarantino at his best!", "Great performances."]
+    "reviews": [
+      {
+        "author": "Bob Brown",
+        "published_on": "2022-01-15",
+        "review": "I didn't enjoy it as much. The pacing felt off.",
+        "rate": 3
+      }
+    ]
   },
   {
     "id": 5,
     "name": "The Shawshank Redemption",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=61",
     "rate": 4.9,
-    "review": ["Timeless classic!", "Redemption theme is powerful."]
+    "reviews": [
+      {
+        "author": "Eva Rodriguez",
+        "published_on": "2022-01-20",
+        "review": "A masterpiece! The acting was exceptional.",
+        "rate": 5
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Pulp Fiction",
-    "cover": "https://unsplash.it/800/600",
+    "cover": "https://unsplash.it/180/230?random=60",
     "rate": 4.8,
-    "review": ["Tarantino's non-linear storytelling shines.", "Memorable dialogues."]
-  },
-  {
-    "id": 7,
-    "name": "The Matrix",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.7,
-    "review": ["Revolutionary sci-fi!", "Bullet-dodging scene is iconic."]
-  },
-  {
-    "id": 8,
-    "name": "Fight Club",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.6,
-    "review": ["Twisted and thought-provoking.", "Unexpected plot twists."]
-  },
-  {
-    "id": 9,
-    "name": "Forrest Gump",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.8,
-    "review": ["Heartwarming tale!", "Tom Hanks' performance is outstanding."]
-  },
-  {
-    "id": 10,
-    "name": "The Godfather",
-    "cover": "https://unsplash.it/800/600",
-    "rate": 4.9,
-    "review": ["Epic mafia drama.", "Marlon Brando's portrayal is legendary."]
+    "reviews": [
+      {
+        "author": "Chris Wilson",
+        "published_on": "2022-01-25",
+        "review": "The plot twist blew my mind. Recommended!",
+        "rate": 4
+      }
+    ]
   }
 ]

@@ -13,7 +13,16 @@
     </div>
     <div class="form-group">
       <label for="pword">Password</label>
-      <input type="password" name="pword" class="form-control" [(ngModel)]="password"/>
+      <input [type]="hidePassword ? 'text' : 'password'" name="pword" class="form-control pwd-control" [(ngModel)]="password"/>
+      <button *ngIf="password" type="button" (click)="togglePassword()">Voir</button>
+      <!-- <div>
+        <i alt="show" class="bi bi-eye eye-show"
+           (click)="togglePassword()"
+           [class.hide]="hidePassword"></i>
+        <i alt="hide" class="bi bi-eye-slash eye-hide"
+           (click)="togglePassword()"
+           [class.hide]="!hidePassword"></i>
+      </div> -->
     </div>
     <div class="btn-container">
       <div class="error">{{errorMsg}}</div>

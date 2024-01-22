@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
   username: string ="";
   password: string ="";
   errorMsg: string ="";
+  hidePassword: boolean = false;
 
   constructor(private auth: AuthService, private router: Router){}
 
@@ -21,6 +22,10 @@ export class LoginComponent implements OnInit {
  ***/
   ngOnInit(): void {
     this.loginMethod();
+  }
+
+  togglePassword() {
+    this.hidePassword = !this.hidePassword;
   }
 
   login(){
